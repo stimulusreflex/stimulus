@@ -1,6 +1,8 @@
 StimulusReflex has no plans to change the package we're importing from.
 
-You should continue using and importing the `stimulus` package, as there is no reason to effectively fork the library and break the entire ecosystem. Switching package names has zero positive value and is a fast-track to dependency issues. It is *deeply unfortunate* that DHH's blog post made it seem as though `upgrade == package name change` as this is simply not the case.
+If you're using import maps, use the new official Stimulus package: `@hotwired/stimulus`.
+
+If you're using Webpacker, you should continue using and importing the `stimulus` package, as there is no reason to effectively fork the library and break the entire ecosystem. Switching package names has zero positive value and is a fast-track to dependency issues. It is *deeply unfortunate* that DHH's blog post made it seem as though `upgrade == package name change` as this is simply not the case.
 
 Please see the comment here, which has overwhelming and **unanimous** support: https://github.com/hotwired/stimulus/pull/421#issuecomment-908609584
 
